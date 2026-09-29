@@ -328,13 +328,13 @@ const Header = () => {
             </a>
 
             <a
-              href="https://maps.google.com/?q=Said+Bin+Seif+Building+Meru+Road+Mombasa"
+              href={`https://maps.google.com/?q=${encodeURIComponent(CONTACT.mapsQuery)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={`${styles.topbarItem} ${styles.topbarAddress}`}
             >
               <FaMapMarkerAlt className={styles.topbarIcon} aria-hidden="true" />
-              Said Bin Seif Building, Meru Road, Mombasa
+              {CONTACT.locationShort}
             </a>
 
           </div>

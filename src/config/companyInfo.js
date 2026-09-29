@@ -7,10 +7,10 @@ export const companyInfo = {
     secondary: "#F2A900",
   },
   contact: {
-    phone: "+254 113 808 073",
-    email: "info@marincsystems.co.ke",
-    whatsapp: "+254 113 808 073",
-    address: "…",
+    phone: "+255 760 667 668",
+    email: "info@marinc.co.tz",
+    whatsapp: "+255 760 667 668",
+    address: "Block Number KJM/KJM/435 Block Number 435 Zimbwabwe/Mpakani road, Kijitonyama, Dar es Salam, Tanzania",
     businessHours: "Mon–Fri, 8am–5pm",
   },
   social: {

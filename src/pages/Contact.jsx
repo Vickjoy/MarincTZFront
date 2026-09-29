@@ -56,9 +56,9 @@ const Contact = () => {
               <div className={styles.infoCard}>
                 <FaMapMarkerAlt className={styles.infoIcon} />
                 <div>
-                  <h3 className={styles.infoLabel}>Mombasa Office</h3>
+                  <h3 className={styles.infoLabel}>Dar es Salam Office</h3>
                   <p className={styles.infoText}>
-                    Said Bin Seif Building, Meru Road, Opposite Fantasy Restaurant
+                    {CONTACT.location}
                   </p>
                 </div>
               </div>
@@ -191,14 +191,14 @@ const Contact = () => {
 
       <div className={styles.mapHero}>
         <iframe
-          src="https://maps.google.com/maps?q=Said+Bin+Seif+Building+Meru+Road+Mombasa&t=&z=16&ie=UTF8&iwloc=&output=embed"
+          src={`https://maps.google.com/maps?q=${encodeURIComponent(CONTACT.mapsQuery)}&t=&z=16&ie=UTF8&iwloc=&output=embed`}
           width="100%"
           height="100%"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Marinc Systems Mombasa HQ"
+          title="Marinc Systems Dar es Salam HQ"
         />
       </div>
     </div>

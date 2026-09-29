@@ -8,7 +8,7 @@ const FloatingWhatsAppButton = () => {
    
     {
       name: "Marinc Systems Customer Service",
-      number: "254113808073",
+      number: "255760667668",
       description: "For general support and orders"
     }
   ];

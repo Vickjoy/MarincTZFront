@@ -64,17 +64,16 @@ const Footer = () => {
 
           <div className={styles.col}>
             <div className={styles.colHead}>
-              <p className={styles.colLabel}>Mombasa · HQ</p>
+              <p className={styles.colLabel}>{CONTACT.locationLabel}</p>
             </div>
             <p className={styles.address}>
-              Said Bin Seif Building, Meru Road,<br />
-              opposite Fantasy Restaurant
+              {CONTACT.location}
             </p>
             {CONTACT.phones.map((p) => (
               <a key={p.tel} href={`tel:${p.tel}`} className={styles.officeLink}>{p.display}</a>
             ))}
             <a
-              href="https://maps.google.com/?q=Said+Bin+Seif+Building+Meru+Road+Mombasa"
+              href={`https://maps.google.com/?q=${encodeURIComponent(CONTACT.mapsQuery)}`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.officeLink}

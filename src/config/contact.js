@@ -1,21 +1,24 @@
 /**
  * Single source of truth for company contact details.
- * Official line: 0113 808 073 (also the WhatsApp number)
- * Extra line:    0721 247 356
+ * Official line: +255 760 667 668 (also the WhatsApp number)
+ * Extra line:    +255 763 170 945
  */
 export const CONTACT = {
     phones: [
-      { display: '0113 808 073', tel: '0113808073', intl: '+254 113 808 073', label: 'Official' },
-      { display: '0721 247 356', tel: '0721247356', intl: '+254 721 247 356', label: 'Alternative' },
+      { display: '+255 760 667 668', tel: '+255760667668', intl: '+255 760 667 668', label: 'Official' },
+      { display: '+255 763 170 945', tel: '+255763170945', intl: '+255 763 170 945', label: 'Alternative' },
     ],
-    email: 'info@marincsystems.co.ke',
-    location: 'Said Bin Seif Building, Meru Road, Opposite Fantasy Restaurant',
+    email: 'info@marinc.co.tz',
+    location: 'Block Number KJM/KJM/435 Block Number 435 Zimbwabwe/Mpakani road, Kijitonyama, Dar es Salam, Tanzania',
+    locationShort: 'Block Number 435 Zimbwabwe/Mpakani Road, Kijitonyama, Dar es Salam',
+    locationLabel: 'Dar es Salam · HQ',
+    mapsQuery: 'KJM/KJM/435 Zimbwabwe Mpakani road Kijitonyama Dar es Salaam Tanzania',
     // WhatsApp uses the official number only
-    whatsapp: '254113808073',
-    whatsappUrl: 'https://wa.me/254113808073',
+    whatsapp: '255760667668',
+    whatsappUrl: 'https://wa.me/255760667668',
     social: {
-      facebook: 'https://www.facebook.com/share/1EdzJithHP/',
-      instagram: 'https://www.instagram.com/marincsystemske',
-      tiktok: 'https://www.tiktok.com/@marincsystemske',
+      facebook: 'https://web.facebook.com/?_rdc=1&_rdr#',
+      instagram: 'https://www.instagram.com/marincsystemstz?stkn=YzRieXltdDlkemp6&utm_source=qr',
+      tiktok: 'https://www.tiktok.com/@marinc_tz?_r=1&_t=ZS-9A8H7gc1i8G',
     },
   };
