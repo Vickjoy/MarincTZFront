@@ -191,14 +191,14 @@ const Contact = () => {
 
       <div className={styles.mapHero}>
         <iframe
-          src={`https://maps.google.com/maps?q=${encodeURIComponent(CONTACT.mapsQuery)}&t=&z=16&ie=UTF8&iwloc=&output=embed`}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.9570999368693!2d39.23846207403335!3d-6.775076266252988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4d006c965f19%3A0xc141d6629004d69!2sMarinc%20systems%20Tanzania!5e0!3m2!1sen!2sus!4v1792662423563!5m2!1sen!2sus"
           width="100%"
-          height="100%"
+          height="400"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Marinc Systems Dar es Salam HQ"
+          referrerPolicy="strict-origin-when-cross-origin"
+          title="Marinc Systems Tanzania Location"
         />
       </div>
     </div>
