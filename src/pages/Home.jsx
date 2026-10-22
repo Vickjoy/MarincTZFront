@@ -22,7 +22,7 @@ import AImage from '../assets/A.png';
 import BImage from '../assets/B.png';
 
 // Service images
-import FireAlarmImage from '../assets/FireAlarm.jpeg';
+import AlarmImage from '../assets/xDetect.jpg';
 import VoIPImage from '../assets/VoIP.jpg';
 import IPImage from '../assets/IP.jpg';
 import StructuredCablingImage from '../assets/Structured.jpg';
@@ -70,23 +70,10 @@ const permanentSlides = [
   },
 ];
 
-// How long the hero entrance classes stay on the hero after the page loads.
-// Must be longer than the longest intro delay + duration defined in the CSS.
+
 const HERO_INTRO_MS = 1800;
 
-/**
- * Scroll-reveal hook.
- *
- * Uses a single IntersectionObserver for every element inside the returned
- * root ref that carries a `data-reveal` attribute. When an element enters the
- * viewport it receives `visibleClass` once and is then unobserved, so the
- * animation never replays. All motion is handled by CSS; there are no scroll
- * listeners and no React state updates.
- *
- * Note: observed elements must keep a static className in JSX. React only
- * touches the DOM className when the prop value changes, so the class added
- * here survives re-renders (e.g. the 5s hero rotation).
- */
+
 const useScrollReveal = (enabled, visibleClass) => {
   const rootRef = useRef(null);
 
@@ -139,7 +126,7 @@ const Home = () => {
   const services = [
     {
       id: 1,
-      image: FireAlarmImage,
+      image: AlarmImage,
       title: 'Fire Alarm & Detection',
       description:
         'Fire safety systems with smoke detectors, heat sensors, and panels. Ensure fast detection, real-time alerts, regulatory compliance, and secure operations.',
@@ -175,7 +162,7 @@ const Home = () => {
     { number: '10+', label: 'Years Experience' },
     { number: '500+', label: 'Projects Delivered' },
     { number: '8', label: 'Trusted Brand Partners' },
-    { number: '1 HR', label: 'Phone Response' },
+    { number: '100%', label: 'Customer Commitment' },,
   ];
 
   const whyChoosePoints = [
